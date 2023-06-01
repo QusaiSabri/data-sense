@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="data-sense.app/data-sense">
+      <BCSymbolMapName>data-sense.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>data-sense.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/qusaisabri/Projects/data-sense/data-sense/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>data-sense.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/qusaisabri/Projects/data-sense/data-sense</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

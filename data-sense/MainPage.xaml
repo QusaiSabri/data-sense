@@ -3,39 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="data_sense.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+      <StackLayout Spacing="0" Padding="20" BackgroundColor="CadetBlue">
+        <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
+            <Button Text="Connect"
+                    HorizontalOptions="Start" />
+        </StackLayout>
+        <ScrollView>
+            <StackLayout Spacing="25" BackgroundColor="Azure">
+                <!-- Content for the Home Screen -->                
+                <Label Text="Content for the Home Screen"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Hello, Qusai!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 
 </ContentPage>

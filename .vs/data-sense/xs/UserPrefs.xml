@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{E65CA699-9F68-481A-BBA1-9F82FC02C635}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="data-sense/MainPage.xaml">
+    <Files>
+      <File FileName="data-sense/App.xaml" Line="1" Column="1" />
+      <File FileName="data-sense/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="data-sense/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="data-sense/MauiProgram.cs" Line="1" Column="1" />
+      <File FileName="data-sense/MainPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="data-sense" expanded="True">
+            <Node name="data-sense" expanded="True" selected="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.data-sense PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
