@@ -1,5 +1,4 @@
 ﻿namespace data_sense;
-
 public partial class MainPage : ContentPage
 {
 	int count = 0;
@@ -20,5 +19,17 @@ public partial class MainPage : ContentPage
 
 		//SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private async void OnConnectClicked(object sender, EventArgs e)
+    {
+        var popupPage = new DatabaseTypePopupPage();
+        popupPage.DatabaseTypeSelected += OnDatabaseTypeSelected;
+        await Navigation.PushAsync(popupPage);
+    }
+
+    private void OnDatabaseTypeSelected(string selectedDatabaseType)
+    {
+        // use the selectedDatabaseType here
+    }
 }
 

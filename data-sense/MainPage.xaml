@@ -2,24 +2,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="data_sense.MainPage">
+<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
-    <HorizontalStackLayout BackgroundColor="DarkGreen">
-        <StackLayout Spacing="25" BackgroundColor="Azure" WidthRequest="350">
-            <Frame >
+        <!-- Left Pane -->
+        <StackLayout Grid.Column="0" BackgroundColor="Coral" Padding="20">
+            <!-- Content for the left pane -->
+            <Button Text="Connect" FontSize="Medium" Clicked="OnConnectClicked"/>
 
-                <Label Text="Content for the Home Screen"
-                       FontSize="18"
-                       HorizontalOptions="Center"
-                       TextColor="Black"
-                   ZIndex="1"
-                   />
-
-            </Frame>
-
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
             
         </StackLayout>
-    </HorizontalStackLayout>
+
+        <!-- Right Area -->
+        <StackLayout Grid.Column="1" BackgroundColor="DarkGreen">
+            <!-- Content for the right area -->
+        </StackLayout>
+    </Grid>
+
 
 </ContentPage>
