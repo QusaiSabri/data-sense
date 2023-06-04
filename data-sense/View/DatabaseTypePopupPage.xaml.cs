@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.Maui.Controls;
+﻿using CommunityToolkit.Maui.Views;
 
 namespace data_sense.View;
 
-public partial class DatabaseTypePopupPage : ContentPage
+public partial class DatabaseTypePopupPage : Popup
 {
     public event Action<string> DatabaseTypeSelected;
 
@@ -12,9 +11,10 @@ public partial class DatabaseTypePopupPage : ContentPage
         InitializeComponent();
     }
 
-    private void OnDatabaseTypeSelected(object sender, EventArgs e)
+    private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        DatabaseTypeSelected?.Invoke(DatabaseTypePicker.SelectedItem.ToString());
-        Navigation.PopAsync(); / close the popup/
+        var selectedDatabaseType = (string)e.CurrentSelection.FirstOrDefault();
+        // use the selectedDatabaseType here
     }
+
 }

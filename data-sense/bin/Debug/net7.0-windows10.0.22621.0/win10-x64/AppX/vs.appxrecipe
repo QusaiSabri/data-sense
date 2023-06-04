@@ -31,25 +31,25 @@
     <AppXManifest Include="C:\Users\qusai\source\repos\data-sense\data-sense\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-04T03:14:46.865</Modified>
+      <Modified>2023-06-04T06:59:03.394</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-03T16:21:46.337</Modified>
+      <Modified>2023-06-04T06:41:27.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\data-sense.runtimeconfig.json">
       <PackagePath>data-sense.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-03T16:21:46.159</Modified>
+      <Modified>2023-06-04T06:43:25.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\data-sense.dll">
       <PackagePath>data-sense.dll</PackagePath>
-      <Modified>2023-06-04T03:14:45.798</Modified>
+      <Modified>2023-06-04T06:59:02.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\apphost.exe">
       <PackagePath>data-sense.exe</PackagePath>
-      <Modified>2023-06-04T03:14:45.805</Modified>
+      <Modified>2023-06-04T06:59:02.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -807,6 +807,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:40:20.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\communitytoolkit.maui\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2023-05-26T07:59:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\communitytoolkit.maui.core\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2023-05-26T07:59:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -911,6 +919,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2022-10-18T16:18:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -921,7 +933,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\data-sense.deps.json">
       <PackagePath>data-sense.deps.json</PackagePath>
-      <Modified>2023-06-04T03:14:46.672</Modified>
+      <Modified>2023-06-04T06:59:03.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -941,23 +953,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.763</Modified>
+      <Modified>2023-06-04T06:41:25.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.772</Modified>
+      <Modified>2023-06-04T06:41:25.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.793</Modified>
+      <Modified>2023-06-04T06:41:26.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.811</Modified>
+      <Modified>2023-06-04T06:41:26.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.879</Modified>
+      <Modified>2023-06-04T06:41:26.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -969,207 +981,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-03T16:21:44.915</Modified>
+      <Modified>2023-06-04T06:41:26.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.067</Modified>
+      <Modified>2023-06-04T06:41:26.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.075</Modified>
+      <Modified>2023-06-04T06:41:26.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.081</Modified>
+      <Modified>2023-06-04T06:41:26.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.090</Modified>
+      <Modified>2023-06-04T06:41:26.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.126</Modified>
+      <Modified>2023-06-04T06:41:26.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.962</Modified>
+      <Modified>2023-06-04T06:41:26.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.964</Modified>
+      <Modified>2023-06-04T06:41:26.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.972</Modified>
+      <Modified>2023-06-04T06:41:26.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.966</Modified>
+      <Modified>2023-06-04T06:41:26.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.968</Modified>
+      <Modified>2023-06-04T06:41:26.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.950</Modified>
+      <Modified>2023-06-04T06:41:26.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.951</Modified>
+      <Modified>2023-06-04T06:41:26.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.960</Modified>
+      <Modified>2023-06-04T06:41:26.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.953</Modified>
+      <Modified>2023-06-04T06:41:26.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.956</Modified>
+      <Modified>2023-06-04T06:41:26.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.925</Modified>
+      <Modified>2023-06-04T06:41:26.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.926</Modified>
+      <Modified>2023-06-04T06:41:26.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.930</Modified>
+      <Modified>2023-06-04T06:41:26.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.932</Modified>
+      <Modified>2023-06-04T06:41:26.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.935</Modified>
+      <Modified>2023-06-04T06:41:26.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.937</Modified>
+      <Modified>2023-06-04T06:41:26.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.939</Modified>
+      <Modified>2023-06-04T06:41:26.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.948</Modified>
+      <Modified>2023-06-04T06:41:26.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.941</Modified>
+      <Modified>2023-06-04T06:41:26.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.943</Modified>
+      <Modified>2023-06-04T06:41:26.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.002</Modified>
+      <Modified>2023-06-04T06:41:26.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.005</Modified>
+      <Modified>2023-06-04T06:41:26.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.008</Modified>
+      <Modified>2023-06-04T06:41:26.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.014</Modified>
+      <Modified>2023-06-04T06:41:26.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.022</Modified>
+      <Modified>2023-06-04T06:41:26.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.986</Modified>
+      <Modified>2023-06-04T06:41:26.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.989</Modified>
+      <Modified>2023-06-04T06:41:26.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.991</Modified>
+      <Modified>2023-06-04T06:41:26.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.993</Modified>
+      <Modified>2023-06-04T06:41:26.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.999</Modified>
+      <Modified>2023-06-04T06:41:26.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.975</Modified>
+      <Modified>2023-06-04T06:41:26.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.977</Modified>
+      <Modified>2023-06-04T06:41:26.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.979</Modified>
+      <Modified>2023-06-04T06:41:26.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.981</Modified>
+      <Modified>2023-06-04T06:41:26.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.984</Modified>
+      <Modified>2023-06-04T06:41:26.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.026</Modified>
+      <Modified>2023-06-04T06:41:26.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.030</Modified>
+      <Modified>2023-06-04T06:41:26.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.035</Modified>
+      <Modified>2023-06-04T06:41:26.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.043</Modified>
+      <Modified>2023-06-04T06:41:26.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.062</Modified>
+      <Modified>2023-06-04T06:41:26.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.946</Modified>
+      <Modified>2023-06-04T06:41:26.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.952</Modified>
+      <Modified>2023-06-04T06:41:26.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.961</Modified>
+      <Modified>2023-06-04T06:41:26.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-03T16:21:44.974</Modified>
+      <Modified>2023-06-04T06:41:26.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-03T16:21:45.002</Modified>
+      <Modified>2023-06-04T06:41:26.152</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
