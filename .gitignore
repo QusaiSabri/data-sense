@@ -5,3 +5,5 @@
 /.vs/data-sense/FileContentIndex
 **/bin/*
 **/obj/*
+/.vs
+/obj
