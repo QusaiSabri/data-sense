@@ -1,9 +1,9 @@
 AreAnyAssembliesTrimmed=false
-				AssemblyName=data-sense.dll
+				AssemblyName=DataSense.Presentation.dll
 				
 				AOTCompiler=
 				AOTOutputDirectory=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\nativelibraries/aot-output/
-				AppBundleManifestPath=bin\Debug\net7.0-maccatalyst\maccatalyst-x64\data-sense.app\Contents/Info.plist
+				AppBundleManifestPath=bin\Debug\net7.0-maccatalyst\maccatalyst-x64\DataSense.Presentation.app\Contents/Info.plist
 				CacheDirectory=C:\Users\qusai\source\repos\data-sense\data-sense\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
 				
 				Debug=true
@@ -200,7 +200,7 @@ MonoLibrary=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.mac
 				PartialStaticRegistrarLibrary=C:\Program Files\dotnet\packs\Microsoft.MacCatalyst.Runtime.maccatalyst-x64\16.4.7054/runtimes/maccatalyst-x64/native/Microsoft.MacCatalyst.registrar.a
 				Platform=MacCatalyst
 				PlatformAssembly=Microsoft.MacCatalyst.dll
-				RelativeAppBundlePath=..\data-sense.app\
+				RelativeAppBundlePath=..\DataSense.Presentation.app\
 				Registrar=
 				RequirePInvokeWrappers=
 				RuntimeConfigurationFile=runtimeconfig.bin

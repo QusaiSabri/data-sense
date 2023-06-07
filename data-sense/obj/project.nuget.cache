@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e5Za9HnLCpBi7QMs8t3D3FrYuIqVXKW6uStYr/E4SxkaTFopbUQTs62ksDc7OltUd8rMOgBmcQjPSGm0KS8mgA==",
+  "dgSpecHash": "5RmKcwkG2bPF9ZMGYttep0orcOZOkCfHwU3eihFNYNZQABWyboQ+jUr5a50OTzEuyIXpKJB4HGXhvCOHnUQnvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\data-sense.csproj",
+  "projectFilePath": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\DataSense.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qusai\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
     "C:\\Users\\qusai\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",
+    "C:\\Users\\qusai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\qusai\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\qusai\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\qusai\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

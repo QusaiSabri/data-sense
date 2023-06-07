@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-sense", "data-sense\data-sense.csproj", "{E65CA699-9F68-481A-BBA1-9F82FC02C635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSense.Presentation", "data-sense\DataSense.Presentation.csproj", "{E65CA699-9F68-481A-BBA1-9F82FC02C635}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BDE856A-7E91-4C9C-85BE-B7FA8760A071} = {2BDE856A-7E91-4C9C-85BE-B7FA8760A071}
+		{DCD2F3DB-4F75-4568-80E9-33D103E743B8} = {DCD2F3DB-4F75-4568-80E9-33D103E743B8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSense.Services", "DataSense.Services\DataSense.Services.csproj", "{2BDE856A-7E91-4C9C-85BE-B7FA8760A071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSense.Core", "DataSense.Core\DataSense.Core.csproj", "{DCD2F3DB-4F75-4568-80E9-33D103E743B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +25,14 @@ Global
 		{E65CA699-9F68-481A-BBA1-9F82FC02C635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65CA699-9F68-481A-BBA1-9F82FC02C635}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E65CA699-9F68-481A-BBA1-9F82FC02C635}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2BDE856A-7E91-4C9C-85BE-B7FA8760A071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDE856A-7E91-4C9C-85BE-B7FA8760A071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDE856A-7E91-4C9C-85BE-B7FA8760A071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDE856A-7E91-4C9C-85BE-B7FA8760A071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD2F3DB-4F75-4568-80E9-33D103E743B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD2F3DB-4F75-4568-80E9-33D103E743B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD2F3DB-4F75-4568-80E9-33D103E743B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD2F3DB-4F75-4568-80E9-33D103E743B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,24 +44,20 @@ Global
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
-		$0.TextStylePolicy = $2
+		$0.TextStylePolicy = $7
 		$2.inheritsSet = null
 		$2.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $3
 		$3.scope = text/x-csharp
-		$0.TextStylePolicy = $4
 		$4.FileWidth = 80
 		$4.TabsToSpaces = True
 		$4.scope = text/plain
-		$0.TextStylePolicy = $5
 		$5.inheritsSet = null
 		$5.scope = application/xml
-		$0.XmlFormattingPolicy = $6
+		$0.XmlFormattingPolicy = $8
 		$6.scope = application/xml
-		$0.TextStylePolicy = $7
 		$7.inheritsSet = null
 		$7.scope = application/manifest+xml
-		$0.XmlFormattingPolicy = $8
 		$8.inheritsSet = null
 		$8.scope = application/manifest+xml
 	EndGlobalSection

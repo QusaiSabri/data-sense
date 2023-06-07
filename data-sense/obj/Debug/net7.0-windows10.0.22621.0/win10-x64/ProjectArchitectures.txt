@@ -1,1 +1,1 @@
-C:\Users\qusai\source\repos\data-sense\data-sense\data-sense.csproj;x64
+C:\Users\qusai\source\repos\data-sense\data-sense\DataSense.Presentation.csproj;x64

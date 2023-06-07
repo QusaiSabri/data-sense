@@ -40,8 +40,8 @@ build_metadata.AdditionalFiles.ManifestResourceName = data_sense.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/qusai/source/repos/data-sense/data-sense/View/DatabaseTypePopupPage.xaml]
+[C:/Users/qusai/source/repos/data-sense/data-sense/Views/DatabaseTypePopupPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = data_sense.View.DatabaseTypePopupPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\DatabaseTypePopupPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\DatabaseTypePopupPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = data_sense.Views.DatabaseTypePopupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DatabaseTypePopupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DatabaseTypePopupPage.xaml

@@ -1,14 +1,17 @@
 ﻿using CommunityToolkit.Maui.Views;
-using data_sense.View;
+using data_sense.Views;
+using DataSense.Core.Interfaces;
 
 namespace data_sense;
 public partial class MainPage : ContentPage
 {
     int count = 0;
+    private readonly IDataService _dataService;
 
-    public MainPage()
+    public MainPage(IDataService dataService)
     {
         InitializeComponent();
+        _dataService = dataService;
     }
 
     private void OnCounterClicked(object sender, EventArgs e)
@@ -25,12 +28,7 @@ public partial class MainPage : ContentPage
 
     private async void OnConnectClicked(object sender, EventArgs e)
     {
-        this.ShowPopup(new DatabaseTypePopupPage());
-    }
-
-    private void OnDatabaseTypeSelected(string selectedDatabaseType)
-    {
-        // use the selectedDatabaseType here
+        this.ShowPopup(new DatabaseTypePopupPage(_dataService));
     }
 
 }

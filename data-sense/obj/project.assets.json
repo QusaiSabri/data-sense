@@ -31,6 +31,22 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +227,29 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
         }
       }
     },
@@ -244,6 +283,22 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -424,6 +479,29 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
         }
       }
     },
@@ -457,6 +535,22 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -637,6 +731,29 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
         }
       }
     },
@@ -671,6 +788,22 @@
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -1014,6 +1147,29 @@
             "rid": "win"
           }
         }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.22621/maccatalyst-x64": {
@@ -1047,6 +1203,22 @@
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -1356,6 +1528,29 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.22621/win10-x64": {
@@ -1389,6 +1584,22 @@
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -1704,6 +1915,29 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "DataSense.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Core.dll": {}
+        }
+      },
+      "DataSense.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataSense.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataSense.Services.dll": {}
+        }
       }
     }
   },
@@ -1761,6 +1995,37 @@
         "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
         "lib/net7.0/CommunityToolkit.Maui.Core.dll",
         "lib/net7.0/CommunityToolkit.Maui.Core.xml"
+      ]
+    },
+    "CommunityToolkit.Mvvm/8.2.0": {
+      "sha512": "F883u+B0AVUkRZS+VQBiZEJiqlGiiQhGA8Ejy1/Y8fl4ecBmSd+HYuDso0iiUhh+UxRDjp2aTQ7jGkuL2S4NrA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -3005,11 +3270,24 @@
         "system.speech.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DataSense.Core/1.0.0": {
+      "type": "project",
+      "path": "../DataSense.Core/DataSense.Core.csproj",
+      "msbuildProject": "../DataSense.Core/DataSense.Core.csproj"
+    },
+    "DataSense.Services/1.0.0": {
+      "type": "project",
+      "path": "../DataSense.Services/DataSense.Services.csproj",
+      "msbuildProject": "../DataSense.Services/DataSense.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 5.2.0",
+      "CommunityToolkit.Mvvm >= 8.2.0",
+      "DataSense.Core >= 1.0.0",
+      "DataSense.Services >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -3019,6 +3297,9 @@
     ],
     "net7.0-windows10.0.22621": [
       "CommunityToolkit.Maui >= 5.2.0",
+      "CommunityToolkit.Mvvm >= 8.2.0",
+      "DataSense.Core >= 1.0.0",
+      "DataSense.Services >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -3037,9 +3318,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\data-sense.csproj",
-      "projectName": "data-sense",
-      "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\data-sense.csproj",
+      "projectUniqueName": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\DataSense.Presentation.csproj",
+      "projectName": "DataSense.Presentation",
+      "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\DataSense.Presentation.csproj",
       "packagesPath": "C:\\Users\\qusai\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\data-sense\\obj\\",
       "projectStyle": "PackageReference",
@@ -3064,11 +3345,25 @@
       "frameworks": {
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Core\\DataSense.Core.csproj": {
+              "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Core\\DataSense.Core.csproj"
+            },
+            "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Services\\DataSense.Services.csproj": {
+              "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Services\\DataSense.Services.csproj"
+            }
+          }
         },
         "net7.0-windows10.0.22621": {
           "targetAlias": "net7.0-windows10.0.22621.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Core\\DataSense.Core.csproj": {
+              "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Core\\DataSense.Core.csproj"
+            },
+            "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Services\\DataSense.Services.csproj": {
+              "projectPath": "C:\\Users\\qusai\\source\\repos\\data-sense\\DataSense.Services\\DataSense.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3084,6 +3379,10 @@
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.0, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -3152,6 +3451,10 @@
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.0, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",

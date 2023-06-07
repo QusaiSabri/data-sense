@@ -11,7 +11,7 @@
         <!-- Left Pane -->
         <StackLayout Grid.Column="0" BackgroundColor="Coral" Padding="20">
             <!-- Content for the left pane -->
-            <Button Text="Connect" FontSize="Medium" Clicked="OnConnectClicked"/>
+            <Button Text="Connect" FontSize="Medium" Clicked="OnConnectClicked" />
 
             
         </StackLayout>
