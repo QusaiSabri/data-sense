@@ -7,3 +7,8 @@
 **/obj/*
 /.vs
 /obj
+/.vs/data-sense/DesignTimeBuild/.dtbcache.v2
+/.vs/data-sense/v17/.futdcache.v2
+/.vs/data-sense/v17/.suo
+/.vs/ProjectEvaluation/data-sense.metadata.v7.bin
+/.vs/ProjectEvaluation/data-sense.projects.v7.bin
