@@ -2,17 +2,16 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using DataSense.Core.Interfaces;
+using DataSense.Core.Models;
 
 namespace data_sense.ViewModels
 {
-    public class DatabaseTypePopupPageViewModel : BaseViewModel
+    public class DatabaseTypePopupPageViewModel
     {
-        private readonly IDataService _dataService;
         private ObservableCollection<string> _databaseTypes;
 
-        public DatabaseTypePopupPageViewModel(IDataService dataService)
+        public DatabaseTypePopupPageViewModel()
         {
-            _dataService = dataService;
             LoadData();
         }
 
@@ -28,7 +27,7 @@ namespace data_sense.ViewModels
 
         private void LoadData()
         {
-            DatabaseTypes = new ObservableCollection<string>(_dataService.GetSupportedDatabaseTypes());
+            DatabaseTypes = new ObservableCollection<string>(DatabaseType.SupportedTypes);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

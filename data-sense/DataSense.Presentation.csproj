@@ -75,4 +75,14 @@
 	  <ProjectReference Include="..\DataSense.Core\DataSense.Core.csproj" />
 	  <ProjectReference Include="..\DataSense.Services\DataSense.Services.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\DatabaseConnectionPopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Services\" />
+	</ItemGroup>
 </Project>
