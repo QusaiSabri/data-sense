@@ -9,6 +9,6 @@ namespace DataSense.Core.Interfaces
 {
     public interface IDatabaseConnectionService
     {
-        Task<bool> Connect(DatabaseConfiguration config);
+        Task<(bool isConnected, string message)> Connect(DatabaseConfiguration config);
     }
 }

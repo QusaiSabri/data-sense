@@ -1,17 +1,21 @@
 ﻿using CommunityToolkit.Maui.Views;
 using data_sense.Views;
 using DataSense.Core.Interfaces;
+using DataSense.Core.Models;
 using DataSense.Services.Factories;
+using DataSense.Services.Services;
 
 namespace data_sense;
 public partial class MainPage : ContentPage
 {
     int count = 0;
-    private readonly IDataService _dataService;
+    private IServiceProvider _services;
 
-    public MainPage()
+    public MainPage(IServiceProvider services)
     {
         InitializeComponent();
+        _services = services;
+
     }
 
     private void OnCounterClicked(object sender, EventArgs e)
@@ -35,10 +39,28 @@ public partial class MainPage : ContentPage
 
     private void OnDatabaseTypeSelected(string selectedDatabaseType)
     {
-        var connectionService = ConnectionServiceFactory.GetConnectionService(selectedDatabaseType);
-        var connectionPopupPage = new DatabaseConnectionPopup(connectionService);
-        this.ShowPopup(connectionPopupPage);
+        var connectionService = ConnectionServiceFactory.GetConnectionService(selectedDatabaseType, _services);
+        var connectionPopup = new DatabaseConnectionPopup(connectionService);
+        connectionPopup.ConnectionStatusKnown += OnConnectionStatusKnown;
+        this.ShowPopup(connectionPopup);
+
     }
+
+
+
+    private async void OnConnectionStatusKnown(ConnectionStatusEventArgs args)
+    {
+        if (args.IsConnected)
+        {
+            await DisplayAlert("Connection Status", "Connection successful!", "OK");
+        }
+        else
+        {
+            await DisplayAlert("Connection Status", $"Connection failed. {args.Message}", "OK");
+
+        }
+    }
+
 
 }
 

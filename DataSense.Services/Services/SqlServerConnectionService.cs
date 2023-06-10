@@ -11,7 +11,7 @@ namespace DataSense.Services.Services
 {
     public class SqlServerConnectionService : IDatabaseConnectionService
     {       
-        public async Task<bool> Connect(DatabaseConfiguration config)
+        public async Task<(bool isConnected, string message)> Connect(DatabaseConfiguration config)
         {
             try
             {
@@ -21,12 +21,13 @@ namespace DataSense.Services.Services
                 {
                     await connection.OpenAsync();
 
-                    return true;
+                    return (isConnected: true, message: "");
                 }
             }
             catch (SqlException ex)
             {
-                return false;
+                return (isConnected: false, message: ex.Message);
+
             }
         }
     }

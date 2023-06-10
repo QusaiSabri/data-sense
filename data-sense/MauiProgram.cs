@@ -2,6 +2,7 @@
 using data_sense.ViewModels;
 using DataSense.Core.Interfaces;
 using DataSense.Core.Models;
+using DataSense.Services.Factories;
 using DataSense.Services.Services;
 using Microsoft.Extensions.Logging;
 
@@ -17,10 +18,12 @@ public static class MauiProgram
             fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
         }).UseMauiCommunityToolkit();
 
+        builder.Services.AddSingleton<IDatabaseConnectionService, SqlServerConnectionService>();
         builder.Services.AddSingleton<IDataService, DataService>();
         builder.Services.AddSingleton<DatabaseTypePopupPageViewModel>();
         builder.Services.AddSingleton<DatabaseConfiguration>();
         builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddTransient<SqlServerConnectionService>();
 
 #if DEBUG
         builder.Logging.AddDebug();

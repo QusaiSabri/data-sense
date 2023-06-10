@@ -7,6 +7,7 @@ namespace data_sense.Views;
 public partial class DatabaseConnectionPopup : Popup
 {
     private IDatabaseConnectionService _connectionService;
+    public event Action<ConnectionStatusEventArgs> ConnectionStatusKnown;
 
     public DatabaseConnectionPopup(IDatabaseConnectionService connectionService)
     {
@@ -38,8 +39,10 @@ public partial class DatabaseConnectionPopup : Popup
             Password = password,
         };
 
-        bool isConnected = await _connectionService.Connect(config);
+        var (isConnected, message) = await _connectionService.Connect(config);
 
+
+        
         if (isConnected)
         {
             // TODO: Connection successful. Close this popup and notify the caller.
@@ -47,8 +50,10 @@ public partial class DatabaseConnectionPopup : Popup
         }
         else
         {
+            ConnectionStatusKnown?.Invoke(new ConnectionStatusEventArgs(isConnected, message));
+
             // Connection failed. Show an error message to the user.
-           // await DisplayAler("Error", "Failed to connect to the database. Please check your connection details and try again.", "OK");
+            // await DisplayAler("Error", "Failed to connect to the database. Please check your connection details and try again.", "OK");
         }
         activityIndicator.IsRunning = false;
     }

@@ -6,7 +6,7 @@ using DataSense.Core.Models;
 
 namespace data_sense.ViewModels
 {
-    public class DatabaseTypePopupPageViewModel
+    public class DatabaseTypePopupPageViewModel : INotifyPropertyChanged
     {
         private ObservableCollection<string> _databaseTypes;
 
