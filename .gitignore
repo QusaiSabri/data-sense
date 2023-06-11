@@ -13,3 +13,7 @@
 /.vs/ProjectEvaluation/data-sense.metadata.v7.bin
 /.vs/ProjectEvaluation/data-sense.projects.v7.bin
 /data-sense/bin/Debug/net7.0-windows10.0.22621.0/win10-x64/AppX/Microsoft.VisualBasic.dll
+.vs/
+bin/
+obj/
+/data-sense/bin/Debug/net7.0-windows10.0.22621.0/win10-x64/AppX/System.Drawing.dll
