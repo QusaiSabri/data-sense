@@ -13,17 +13,17 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Text="Server Name" Grid.Row="0"/>
-        <Entry x:Name="ServerNameEntry" Grid.Row="1"/>
+        <Label Text="Server Name" TextColor="Black" Grid.Row="0"/>
+        <Entry x:Name="ServerNameEntry"  TextColor="Black"  Grid.Row="1"/>
 
-        <Label Text="Database Name" Grid.Row="2"/>
-        <Entry x:Name="DatabaseNameEntry" Grid.Row="3"/>
+        <Label Text="Database Name" TextColor="Black" Grid.Row="2"/>
+        <Entry x:Name="DatabaseNameEntry" TextColor="Black"  Grid.Row="3"/>
 
-        <Label Text="User ID" Grid.Row="4"/>
-        <Entry x:Name="UserIdEntry" Grid.Row="5"/>
+        <Label Text="User ID" TextColor="Black"  Grid.Row="4"/>
+        <Entry x:Name="UserIdEntry" TextColor="Black" Grid.Row="5"/>
 
-        <Label Text="Password" Grid.Row="6"/>
-        <Entry x:Name="PasswordEntry" IsPassword="True" Grid.Row="7"/>
+        <Label Text="Password" TextColor="Black"  Grid.Row="6"/>
+        <Entry x:Name="PasswordEntry" TextColor="Black"  IsPassword="True" Grid.Row="7"/>
 
         <Button Text="Connect" Clicked="OnConnectClicked" Grid.Row="8"/>
         <ActivityIndicator x:Name="activityIndicator" IsRunning="False" />
